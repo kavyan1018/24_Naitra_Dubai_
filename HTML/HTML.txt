@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+--> Document type html
+
+<html lang="en">
+--> In html we use English lang
+
+<head>
+    <meta charset="UTF-8">
+    --> encoding 
+    --> full form of utf - 8 is --> Unicode tra Formate
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Frist Website</title>
+</head>
+
+<body>
+    
+    print ---->  what we waant to disign our web page... that code we will write in body our all of the cods 
+
+</body>
+
+</html>
