@@ -1,41 +1,86 @@
+Press:- Shift + 1 and press enter then u got your Formate
+
+Press :- Alt + z so u can get a one line to paragraph for code
+
 <!DOCTYPE html>
---> Document type html
+
+-->Document type html
 
 <html lang="en">
---> In html we use English lang
+-->  In html we use English lang.
 
 <head>
+
     <meta charset="UTF-8">
-    --> encoding 
-    --> full form of utf - 8 is --> Unicode tra Formate
+    encoding
+    what is the full form of UTF ? -->  Unicode tra Formate
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Frist Website</title>
+    <title></title>
+
+    --> in title we Enter our web name 
+
 </head>
-
 <body>
-    
-    print ---->  what we waant to disign our web page... that code we will write in body our all of the cods 
-
+            what we want to show in my web we Write in Body... 
+            all of Code    
 </body>
-
 </html>
 
----------------------------------------------------
-Heading tags 
 
-there is total 6 heading tags 
+heading Tags :- 
+
+we have total 6 heading Tags 
+
+there is size diffrence between h1 to h6 
+
+h1, --> max 
+h2,
+h3,
+h4,
+h5,
+h6, --> min
 
 
-there is  size difference between h1 to h6
+center tag :-
 
-h1 --> Max
-h2
-h3
-h4
-h5
-h6 --> Min
+what we write in center tag that all parts come in center
+
+bold ==> <b> and <strong>
+italic ==> <i> and <em>
+underline ==> <u> and inserted 
+delete ==> <del> and strikex
+high light ==> <mark>
 
 
-font 
+in paragraph tag we write lorem100 short cut --> then we got a 100 words paragraph
+
+
+Images insert total 2 Ways
+
+ <!-- 1st way to insert image  
+        1st Way is insert image from google
+
+        what is src ?  ==> source
+        what is alt ? ==> altranet
+    -->
+
+ <!-- 
+        2nd way is insert image from download 
+     -->
+
+<br>  ==> To Break cont Line 
+
+&nbsp; for space between text/image/and all about that
+
+
+
+// Narendra Modi
+in center img 
+
+New line : Name 
+
+50 lines paragraph
+
+pre yaa to p 
