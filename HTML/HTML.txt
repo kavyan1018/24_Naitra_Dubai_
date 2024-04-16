@@ -83,4 +83,18 @@ New line : Name
 
 50 lines paragraph
 
-pre yaa to p 
+pre Formate text
+
+ yaa to  
+
+p 
+
+
+hr --> horizontal rule
+
+Marquee tag ==> if we want move text, image and etc.. so will put Marquee
+
+Marquee tag– moving text, image, 
+behavior = “scroll”, “slide”, “alternate”; 
+direction = “left”, “right”, “up”, “down”; 
+scrollamount = “20”;  
