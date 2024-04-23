@@ -98,3 +98,10 @@ Marquee tag– moving text, image,
 behavior = “scroll”, “slide”, “alternate”; 
 direction = “left”, “right”, “up”, “down”; 
 scrollamount = “20”;  
+
+--------------------------------
+List tag 
+
+ol --> order list
+ul --> unorder list
+li --> list items
