@@ -25,23 +25,54 @@
 
 
 
+// #include<stdio.h>
+// #include<conio.h>
+
+// int main()
+// {
+//     int a;
+
+//     printf("Enter the Number between 1 to 7 :-");
+//     scanf("%d",&a);
+
+//     if (a == 1)
+//     {
+//         printf("The day is Monday");
+//     }
+//     if (a == 2)
+//     {
+//         printf("The day is Tuesday");
+//     }
+    
+// }
+
+
+// else if 
+
 #include<stdio.h>
 #include<conio.h>
 
 int main()
 {
-    int a;
+    int a,b;
 
-    printf("Enter the Number between 1 to 7 :-");
+    printf("Enter the Number 1:-");
     scanf("%d",&a);
 
-    if (a == 1)
+    printf("Enter the Number 2:-");
+    scanf("%d",&b);
+
+    if (a > b)
     {
-        printf("The day is Monday");
+        printf("A is Max");
     }
-    if (a == 2)
+    else if (b > a)
     {
-        printf("The day is Tuesday");
+        printf("B is Max");
+    }
+    else
+    {
+        printf("Both are same !");
     }
     
 }
