@@ -105,3 +105,11 @@ List tag
 ol --> order list
 ul --> unorder list
 li --> list items
+
+---------------------------------
+
+table tag
+
+tr ==> table rows
+td ==> table data 
+th ==> table head
