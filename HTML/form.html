@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        first name
+        last name 
+        gender 
+        age
+        email    
+        password 
+        dob
+        pn
+        Address
+        
+        dropdown list 
+        submit
+    -->
+
+    <fieldset>
+        <legend align="center">This is My Frist Form</legend>
+        <form>
+
+            <label for="fn">Frist Name</label>
+            <!-- Frist Name -->
+            <input type="text" placeholder="Frist Name" required>
+            
+            <br><br>
+            
+            <label for="ln">Last Name</label>
+            <input type="text" placeholder="Last Name" required>
+            
+            <br><br>
+            
+            <label for="DOB">Date of Birth :</label>
+            <!-- ctrl + Space ==> for sug -->
+        <input type="date">
+        
+        <br><br>
+        
+        <label for="Email">E-mail</label>
+        <input type="email" placeholder="example123@gmail.com" required>
+        
+        <br><br>
+        
+        <label for="pas">password</label>
+        <input type="password">
+        
+        <br><br>
+        
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender">
+        <label for="Female">Female</label>
+        
+        <br><br>
+        <label for="phn">Phone Number </label>
+        <input type="tel" placeholder="123654789" required>
+        
+        <br><br>
+        
+        <label for="ADD">Address</label>
+        <textarea name="" id="" cols="20" rows="5"></textarea>
+        
+        <br><br>
+        
+        <label for="Age">Age</label>
+        <input type="number">
+        
+        <br><br>
+        
+        <!-- dropdown -->
+        <label for="select any one">Select any one</label>
+        <select name="" id="">
+            <option value="">--None--</option>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JS</option>
+        </select>
+        
+        <br><br>
+        
+        <!-- 1st Way to submit -->
+        <!-- <input type="submit"> -->
+        
+        <!-- 2nd way to submit -->
+        <!-- <button type="submit">Submit here</button> -->
+        
+        <!-- 3rd Way  -->
+        <input type="submit" value="Click here for submit">
+        
+    </form>
+</fieldset>
+</body>
+</html>
