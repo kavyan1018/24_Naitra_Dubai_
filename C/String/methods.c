@@ -11,16 +11,15 @@
 
 void main(){
 
-    char a[10];
+    char a[100], length;
 
     // strlen;
 
     puts("Enter the String :-");
     gets(a);
 
-    strlen (a);
+    length = strlen (a);
 
-    puts("The length of the string is %d\n");
-    puts(strlen(a));
+    printf("The length of the string is %d\n", length);
 
 }
