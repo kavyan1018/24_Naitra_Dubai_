@@ -2,7 +2,8 @@
   "C_Cpp_Runner.msvcBatchPath": "",
   "files.associations": {
     "IF_ELSE.C": "cpp",
-    "HOTELMEN.C": "cpp"
+    "HOTELMEN.C": "cpp",
+    "WR - WA.C": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
