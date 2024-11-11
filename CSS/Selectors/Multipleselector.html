@@ -39,14 +39,39 @@
     } */
 
 
-    div li a{
+    /* div li a{
         color: green;
     }
 
     ul > a, ol > a{
         color: red;
+    } */
+
+    /* li:nth-child(4){
+        background-color: aqua;
+    } */
+
+    li:nth-child(odd){
+        background-color: aqua;
     }
 
+    li:nth-child(even){
+        background-color: yellow;
+    }
+
+    ul + a, ol + a{
+        color: red;
+    }
+
+    a[target="_blank"]{
+        background-color: goldenrod;
+        color: antiquewhite;
+    }
+
+    li[value="201"], li[value="400"]{
+        background-color: green;
+        color: cornsilk;
+    }    
 
 </style>
 <body>
@@ -76,8 +101,12 @@
     <a href="#">Link 5</a> |
     <a href="#">Link 6</a>
     <ol>
-        <a href="#"><li>Lorem ipsum dolor sit amet consectetur adipisicing.</li></a>
-        <a href="#"><li value="201">Iure est aperiam, velit nam blanditiis eius.</li></a>
+        <a href="#">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        </a>
+        <a href="#">
+            <li value="201">Iure est aperiam, velit nam blanditiis eius.</li>
+        </a>
         <a href="#"><li>Recusandae voluptates voluptas velit eius nostrum itaque.</li></a>
         <a href="#"><li value="">Itaque deleniti accusamus magni aliquam iste delectus!</li></a>
         <a href="#"><li value="400">Provident dolorum, ut quaerat sunt delectus consequatur.</li></a>
