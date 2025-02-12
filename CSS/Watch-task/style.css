@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Popins, sans-serif;
+}
+
+.card{
+    border: solid;
+    width: 300px;
+    margin: 2rem auto;
+}
+
+.upper-card{
+    position: relative;
+    overflow: hidden;
+}
+
+.best-seller{
+    background-color: orange;
+    /* position: absolute; */
+    top: 15px;
+    left: 0px;
+    color: white;
+    width: max-content;
+    padding: 0.2px 1.1px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.offer{
+    background-color: orange;
+    position: absolute;
+    right: -12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-left: 9px;
+    line-height: 1em;
+}
